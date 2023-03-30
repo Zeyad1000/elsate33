@@ -1,0 +1,258 @@
+@import url(https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Changa' , sans-serif;
+}
+
+
+.btn,
+.btn:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .173);
+    color: #fff
+}
+
+.main-section h1,
+.main-section h6,
+.sec-section h2 {
+    font-family: Changa, sans-serif;
+    font-weight: 400
+}
+
+.main-section h1,
+.main-section h6,
+.sec-section h2,
+.sec-section p {
+    font-style: normal;
+    text-align: right;
+    color: #000560
+}
+
+.bose-line,
+.line {
+    transform: matrix(-1, 0, 0, 1, 0, 0)
+}
+
+.non-photo,
+.only-photo,
+.round {
+    text-align: center
+}
+
+.btn,
+.btn:hover,
+.footer,
+.round {
+    color: #fff
+}
+
+.btn {
+    width: 150px;
+    height: 36px;
+    background: #000560;
+    border-radius: 3px
+}
+
+.bose-line,
+.line,
+.round {
+    background: #0b999a
+}
+
+.btn:hover {
+    background: #040ec5
+}
+
+.main-section {
+    margin-top: 10rem
+}
+
+.main-section h1 {
+    width: 496px;
+    height: 59px;
+    left: 120px;
+    top: 167px;
+    font-size: 49px;
+    line-height: 59px
+}
+
+.main-section h6 {
+    width: 479px;
+    height: 32px;
+    left: 137px;
+    top: 257px;
+    font-size: 21px;
+    line-height: 32px
+}
+
+.line {
+    margin-top: 15px;
+    width: 100%;
+    height: 41px;
+    left: 1216px;
+    top: 562px;
+    border-radius: 0
+}
+
+.sec-section {
+    margin-top: 69px
+}
+
+.sec-section h2 {
+    margin-right: 82px;
+    width: 115px;
+    height: 24px;
+    left: 1019px;
+    top: 672px;
+    font-size: 36px;
+    line-height: 23px
+}
+
+.sec-section h1,
+.sec-section p {
+    font-size: 24px
+}
+
+.sec-section p {
+    margin-right: 82px;
+    margin-top: 41px;
+    width: 489px;
+    height: 95px;
+    left: 650px;
+    top: 737px;
+    font-family: 'DIN Next LT Arabic';
+    font-weight: 300;
+    line-height: 31px
+}
+
+.sec-section h1,
+.zz p {
+    width: 228px;
+    height: 62px;
+    left: 239px;
+    top: 743px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    color: #0b999a;
+    font-family: Changa, sans-serif
+}
+
+.round {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none
+}
+
+.zz {
+    margin-top: 56px;
+    display: flex
+}
+
+.bose-section,
+.proudect {
+    margin-top: 150px
+}
+
+.zz p {
+    font-size: 40px;
+    line-height: 40px
+}
+
+.bose-section {
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.bose-line {
+    width: 100%;
+    height: 124px;
+    left: 1216px;
+    top: 1072px;
+    border-radius: 0
+}
+
+.alt-imgs {
+    width: 782px;
+    height: 440px;
+    position: absolute;
+    left: 200px;
+    top: -182px;
+    z-index: 999
+}
+
+.ms {
+    display: block
+}
+
+.imgs {
+    padding-top: 160px
+}
+
+.mane,
+.size {
+    margin-top: 25px
+}
+
+.footer,
+.non-photo,
+.only-photo {
+    margin-top: 55px
+}
+
+* {
+    font-family: Changa, sans-serif
+}
+
+.non-photo {
+    background: #fafafa
+}
+
+.footer {
+    background: #0b999a;
+    height: auto
+}
+
+@media only screen and (min-width:768px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .bose-section {
+        display: none
+    }
+
+ 
+}
+
+@media only screen and (min-width:600px) {
+    .bose-section {
+        display: none
+    }
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .bose-section {
+        display: none
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
